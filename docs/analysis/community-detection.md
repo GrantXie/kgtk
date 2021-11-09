@@ -1,17 +1,20 @@
 ## Summary
 
-| node1 | label | node2 |
-| -- | -- | -- |
-| gold-block | reachable | metal-block |
-| gold-block | reachable | block |
-| gold-block | reachable | thing |
-| gold-block | reachable | metal |
-| gold-block | reachable | gold |
-| silver-block | reachable | metal-block |
-| silver-block | reachable | block |
-| silver-block | reachable | thing |
-| silver-block | reachable | metal |
-| silver-block | reachable | silver |
+|node1                                        |label|node2    |node2;prob         |
+|---------------------------------------------|-----|---------|-------------------|
+|Christopher Lawford                          |in   |cluster_0|1.0                |
+|Peter Lawford                                |in   |cluster_0|1.0                |
+|Patricia Kennedy Lawford                     |in   |cluster_1|0.806980698069807  |
+|Jean Edith Olssen                            |in   |cluster_0|1.0                |
+|Victoria Lawford                             |in   |cluster_0|1.0                |
+|Sydney Lawford                               |in   |cluster_0|1.0                |
+|Robin Lawford                                |in   |cluster_0|1.0                |
+|Mary Rowan                                   |in   |cluster_0|0.9998999899989999 |
+|Deborah Gould                                |in   |cluster_0|0.9998999899989999 |
+|Patricia Seaton                              |in   |cluster_0|1.0                |
+|David Christopher Lawford                    |in   |cluster_0|0.9998999899989999 |
+|Savannah Rose Lawford                        |in   |cluster_0|0.9998999899989999 |
+|Matthew Valentine Lawford                    |in   |cluster_0|0.9997999799979999 |
 
 This command will return a clutering results from the input kgtk file.
 The algorithms are provided by graph_tool (blockmodel, nested and mcmc)
