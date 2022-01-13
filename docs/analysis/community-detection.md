@@ -1,7 +1,6 @@
 ## Summary
 
-'''
-'''
+``````
 
 | | | |
 |---|---|---|---|
@@ -24,7 +23,7 @@
 | t17 | terminator | award | national_film_registry |
 | t18 | t17 | point_in_time | ^2008-01-01T00:00:00Z/9 |
 
-
+``````
 This command will return a clutering results from the input kgtk file.
 The algorithms are provided by graph_tool (blockmodel, nested and mcmc)
 
